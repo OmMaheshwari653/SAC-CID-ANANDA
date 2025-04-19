@@ -44,6 +44,8 @@ section {
     display: flex;
     overflow-x: auto;
     gap: 15px;
+    background-size: contain;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -54,6 +56,7 @@ section {
     padding: 10px;
     background: white;
     text-align: center;
+    
 }
 
 .team-banner {
@@ -75,4 +78,22 @@ section {
 .dark-mode .card {
     background: #1e1e1e;
     border-color: #333;
+}
+
+.events {
+    background-size: contain;
+    
+}
+ 
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
 }
