@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Programming and Tech Skill Club, Knit Sultanpur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Club Logo" class="logo">
+        <h1>The Programming and Tech Skill Club, Knit Sultanpur</h1>
+        <p class="tagline">Master the art of programming</p>
+        <button id="joinBtn">Join Us</button>
+    </header>
+
+    <section id="joinForm" class="hidden">
+        <h2>Join the Club</h2>
+        <form id="recruitmentForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="events">
+        <h2>About Events</h2>
+        <div class="event-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1">
+                <p>Decode_AI: Storm Through AI Challenges! <br> Date: 19/04/2025</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Event+2" alt="Event 2">
+                <p>Passing the Torch to the next visionaries! <br> Date: 27/02/2025</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Event+3" alt="Event 3">
+                <p>Recruitment for second year student in counseling <br> Date: 27/02/2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h2>Team Section</h2>
+        <div class="team-banner">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team 1">
+                <h3>Role: Leader</h3>
+                <p>Enthusiastic about tech and teamwork.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team 2">
+                <h3>Role: Developer</h3>
+                <p>Passionate coder and designer.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team 3">
+                <h3>Role: Organizer</h3>
+                <p>Strategist and planning expert.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="events-countdown">
+        <h2>Events Section</h2>
+        <div class="event-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Upcoming+1" alt="Upcoming 1">
+                <p>Hackathon 2025 <br> Date: 30/04/2025</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Upcoming+2" alt="Upcoming 2">
+                <p>Tech Meetup <br> Date: 10/05/2025</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200?text=Upcoming+3" alt="Upcoming 3">
+                <p>AI Workshop <br> Date: 25/05/2025</p>
+            </div>
+        </div>
+        <h3 id="countdown"></h3>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Section</h2>
+        <p>Name: Himanshu Dubey, Mobile Number: XXXXXXXXXX</p>
+        <p>Name: Shambhavi Keshari, Mobile Number: XXXXXXXXXX</p>
+    </section>
+
+    <section class="study-material">
+        <h2>Study Material</h2>
+        <ul>
+            <li><a href="#">Web Development Resources</a></li>
+            <li><a href="#">Data Structures & Algorithms Resources</a></li>
+            <li><a href="#">AI/ML Resources</a></li>
+            <li><a href="#">Game Development Resources</a></li>
+        </ul>
+        <button id="darkModeBtn">Dark Mode</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
